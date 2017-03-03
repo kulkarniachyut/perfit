@@ -11,6 +11,11 @@ bin-release/
 # Compiled files
 *.pyc
 
+# Instance files - not to share
+
+instance/*
+
+./config_back.py
 
 # Executables
 *.swf
