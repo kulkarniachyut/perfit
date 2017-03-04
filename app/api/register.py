@@ -4,6 +4,6 @@ from app import app
 
 register = Flask(__name__)
 
-@app.route('/register')
+@app.route('/register' methods = [GET])
 def register():
-    return "register here"
+    return {"statusCode" : 200 , "message" : "registration page"}
