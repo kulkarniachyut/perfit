@@ -13,7 +13,7 @@ bin-release/
 
 # Instance files - not to share
 
-instance/*
+#instance/*
 
 ./config_back.py
 
